@@ -622,8 +622,8 @@ jQuery(document).ready(function ($) {
 		/*
 		 * Since a new gesture is being created, we need to add an entry in the gesture list
 		 */
-		var gesture = $('<li' + (trainingSkipped ? '' : ' class="selected"') +'><div class="progress"><span class="gesture-name">' + gestureName +
-						'</span><img class="arrow" src="./trainer-ui/images/training-arrow.png" /></div>' +
+		var gesture = $('<li' + (trainingSkipped ? '' : ' class="selected"') +'><span class="gesture-name">' + gestureName +
+						'</span>' +
 						'<img class="export-arrow" src="./trainer-ui/images/export-arrow.png" />' +
 						'<span class="label">&nbsp;</span></li>');
 
