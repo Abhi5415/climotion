@@ -1,4 +1,4 @@
-body 				{ font-family: Calibri; margin: 0px; -ms-touch-action: none; overflow-x: hidden; overflow-y: auto; color: #FFF; }
+wbody 				{ font-family: Calibri; margin: 0px; -ms-touch-action: none; overflow-x: hidden; overflow-y: auto; color: #FFF; }
 
 #main 				{ position: fixed; background: #6e5494; z-index: 1; }
 
