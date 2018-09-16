@@ -1,0 +1,32 @@
+{
+  "name": "leaptrainer",
+  "version": "1.0.0",
+  "description": "A gesture and pose learning and recognition framework for the [Leap Motion](http://www.leapmotion.com/).",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "exec": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev-server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roboleary/LeapTrainer.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roboleary/LeapTrainer.js/issues"
+  },
+  "homepage": "https://github.com/roboleary/LeapTrainer.js#readme"
+}
