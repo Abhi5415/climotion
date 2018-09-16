@@ -9,9 +9,11 @@ router.get("/test", (req, res) => {
 })
 
 router.post("/", (req, res) => {
-  const { command } = req.body;
+  let { command } = req.body;
+  command = command.toLowerCase();
   // commit if user forgets to
-  if (command === 'git push -u origin master') command = `git commit -m "Commit update at ${Date.now()}" && ` + command
+  if (command === 'git push') command = `git commit -m "Commit update at ${Date.now()}" && ` + command
+  console.log(command);
   child_process.exec(`${command}`);
   res.json({lol: true})
 })
