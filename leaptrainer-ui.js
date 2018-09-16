@@ -747,11 +747,14 @@ jQuery(document).ready(function ($) {
 
 		setGestureScale(gestureName, hitPercentage, green, green);
 
-		fetch(`http://localhost:3000/command`, {
+		fetch(`http://localhost:8888/command`, {
 			method: "POST",
+			headers: {
+				'Content-Type': 'application/json'
+			},
 			body: JSON.stringify({
 				command: gestureName
-			})
+			}),
 		})
 			.then(res => res.json())
 			.then(json => console.log(json));
