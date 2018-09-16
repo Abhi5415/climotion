@@ -1,6 +1,6 @@
 body 				{ font-family: Calibri; margin: 0px; -ms-touch-action: none; overflow-x: hidden; overflow-y: auto; color: #FFF; }
 
-#main 				{ position: fixed; background: #88CFEB; z-index: 1; }
+#main 				{ position: fixed; background: #6e5494; z-index: 1; }
 
 .button				{ text-align: center; font-size: 14px; outline: 0px; font-weight: bold; text-transform:uppercase; height: 50px; background: #C5E8F5; border: 0px; color: #FFF; cursor: pointer; }
 .button:focus		{ background: #8AC9E1; }
@@ -9,7 +9,7 @@ body 				{ font-family: Calibri; margin: 0px; -ms-touch-action: none; overflow-x
 #gesture-creation-area 		{ height: 50px; background: #fff; margin: 22px 0px 0px 0px; padding-left: 22px; width: 318px; position: absolute; z-index: 9999; }
 #new-gesture-name 			{ width: 201px; float: left; padding: 0px 0px 0px 15px; outline: none; font-size: 14px; font-weight: bold; color: #34495E; text-transform: uppercase; height: 50px; background: #FFFFFF; border: 0px; }
 #create-new-gesture 		{ width: 102px; float: left; }
-#gesture-creation-area img 	{ margin-left: 20px; } 
+#gesture-creation-area img 	{ margin-left: 20px; }
 
 #existing-gestures 									 { list-style-type: none; margin-left: -40px; position: absolute; top: 80px; z-index: 99999; display: block; width: 338px; font-size: 16px; font-weight: bold; color: #FFF; text-transform:uppercase; }
 #existing-gestures li 								 { position: relative; overflow: visible; height: 50px; line-height: 50px; cursor: pointer; background: #9AD7EE; color: #fff; margin-bottom: 0px; }
@@ -23,8 +23,8 @@ body 				{ font-family: Calibri; margin: 0px; -ms-touch-action: none; overflow-x
 
 
 .overlay-open #existing-gestures li 							{ display: none; }
-.overlay-open #existing-gestures li.selected 					{ background: #AFDFF1; width: 88%; display: block; }
-.overlay-open #existing-gestures li.selected img 				{ background: #AFDFF1; }
+.overlay-open #existing-gestures li.selected 					{ background: #7c5ea8; width: 88%; display: block; }
+.overlay-open #existing-gestures li.selected img 				{ background: #7c5ea8; }
 .overlay-open #existing-gestures li.selected img.export-arrow 	{ display: block; }
 .overlay-open #existing-gestures li.selected .training-label 	{ display: none; }
 .overlay-open #existing-gestures li.selected .export-gesture	{ display: block; }
@@ -70,4 +70,3 @@ body 				{ font-family: Calibri; margin: 0px; -ms-touch-action: none; overflow-x
 #open-configuration, #close-configuration				{ text-transform: uppercase; }
 
 #options-update-confirmation							{ display: none; width: 100%; height: 50px; line-height: 50px; font-size: 16px; font-weight: bold; background: #63CF51; text-align: center; position: absolute; bottom: 60px; }
-
